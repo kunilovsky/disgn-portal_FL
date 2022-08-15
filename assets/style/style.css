@@ -1,5 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 body {
   font-family: 'Inter', sans-serif;
   background-color: #fff;
+}
+
+.navbar-brand img {
+  max-width: 250px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #010116;
+  padding: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.navbar-link:hover {
+  color: #17087a;
+}
+
+.navbar-link i {
+  font-size: 25px;
+}
+
+.nav-link {
+  font-size: 1.5em !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-width: 120px;
+  }
+  .nav-link {
+    font-size: 1.2em !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
